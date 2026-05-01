@@ -21,6 +21,9 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
   };
   const handleCardClick = () => {
     handleCasinoClick();
+    if (typeof window !== 'undefined' && typeof (window as any).gtag_report_conversion === 'function') {
+      (window as any).gtag_report_conversion();
+    }
     window.open(casino.url, '_blank', 'noopener,noreferrer');
   };
   const handleCardKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
