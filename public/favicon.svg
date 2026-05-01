@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fgOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="fgViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b21b6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="fgShield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0d2e"/>
+      <stop offset="100%" stop-color="#150d20"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M32 3 L56 11 L56 32 C56 46 46 56 32 61 C18 56 8 46 8 32 L8 11 Z"
+        fill="url(#fgShield)" stroke="url(#fgOrange)" stroke-width="2"/>
+  <!-- Lightning bolt -->
+  <path d="M36 7 L21 32 L30 32 L27 57 L43 30 L34 30 Z" fill="url(#fgOrange)"/>
+  <!-- UK flag box -->
+  <rect x="42" y="42" width="16" height="16" rx="3" fill="url(#fgViolet)"/>
+  <rect x="46.5" y="42" width="5" height="16" fill="#fb923c"/>
+  <rect x="42" y="46.5" width="16" height="5" fill="#fb923c"/>
+</svg>
