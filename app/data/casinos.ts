@@ -32,12 +32,21 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
+  
 
   {
       name: "7Abet",
       logo: "/7ABET.svg",
       bonus: "Casino Welcome Bonus 300% up to £200 + 50 Free Spins to kickstart your journey!",
       url: "https://record.yoloaffiliates.com/_iPf0f63L7Qdhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id=7Abet-SRJ63&payload=",
+      votes: 3962,
+      isMobile: true,
+    },
+    {
+      name: "Zombillion",
+      logo: "/zombillion.svg",
+      bonus: "Welcome Pack 250% up to £4000 + 200 FS",
+      url: "https://direct.club.partners/click?pid=19&offer_id=33&l=1778175466&sub2=Zombillion-SRJ63&sub1=",
       votes: 3962,
       isMobile: true,
     },
