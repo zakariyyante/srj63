@@ -32,7 +32,14 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-  
+  {
+    name: "SpinBoss",
+    logo: "/spinboss.webp",
+    bonus: "400% UP TO £12,750 + 400 FS",
+    url: "https://spbs.lynmonkel.com/?mid=355610_2121758&subid=SpinBoss-SRJ63&clickid=",
+    votes: 5391,
+    isMobile: true,
+  },
 
   {
       name: "7Abet",
@@ -59,14 +66,7 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true,
   },
   
-  {
-    name: "SpinBoss",
-    logo: "/spinboss.webp",
-    bonus: "400% UP TO £12,750 + 400 FS",
-    url: "https://spbs.lynmonkel.com/?mid=355610_2121758&subid=SpinBoss-SRJ63&clickid=",
-    votes: 5391,
-    isMobile: true,
-  },
+  
   // 
 
 
