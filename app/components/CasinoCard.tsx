@@ -10,10 +10,23 @@ interface CasinoCardProps {
   rank?: number;
   badge?: 'gold' | 'silver' | 'bronze' | 'fourth';
   isOnline?: boolean;
+  gclidValue?: string;
+}
+
+/**
+ * If the URL ends with an empty parameter (e.g. "clickid=", "payload=", "visit_id="),
+ * append the gclid value directly. Otherwise return the URL unchanged.
+ */
+function buildUrl(url: string, gclid?: string): string {
+  if (!gclid) return url;
+  if (url.endsWith('=')) return url + gclid;
+  return url;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function CasinoCard({ casino, rank, badge, isOnline = false }: CasinoCardProps) {
+export default function CasinoCard({ casino, rank, badge, isOnline = false, gclidValue }: CasinoCardProps) {
+  const finalUrl = buildUrl(casino.url, gclidValue);
+
   const handleCasinoClick = () => {
     if (casino.isMobile) {
       track('Casino Click', { casino: casino.name });
@@ -24,7 +37,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
     if (typeof window !== 'undefined' && typeof (window as any).gtag_report_conversion === 'function') {
       (window as any).gtag_report_conversion();
     }
-    window.open(casino.url, '_blank', 'noopener,noreferrer');
+    window.open(finalUrl, '_blank', 'noopener,noreferrer');
   };
   const handleCardKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
     if (event.key === 'Enter' || event.key === ' ') {
@@ -102,7 +115,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
 
           <div className="flex flex-col gap-1">
             <a
-              href={casino.url}
+              href={finalUrl}
               target="_blank"
               rel="noopener noreferrer"
               onClick={(event) => {

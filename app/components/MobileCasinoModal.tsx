@@ -1,6 +1,5 @@
 'use client';
 
-import { useMemo } from 'react';
 import { Casino } from '../data/casinos';
 import CasinoCard from './CasinoCard';
 import Header from './Header';
@@ -12,17 +11,8 @@ interface MobileCasinoModalProps {
   gclidValue?: string;
 }
 
-export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue = '' }: MobileCasinoModalProps) {
+export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue }: MobileCasinoModalProps) {
   const isOpen = isOnline && mobileCasinos.length > 0;
-
-  const updatedCasinos = useMemo(() => {
-    if (!gclidValue) return mobileCasinos;
-    
-    return mobileCasinos.map(casino => ({
-      ...casino,
-      url: casino.url + `&s=4&utm_medium=${gclidValue}`
-    }));
-  }, [mobileCasinos, gclidValue]);
 
   if (!isOpen) return null;
 
@@ -46,13 +36,14 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
         {/* Content */}
         <div className="container mx-auto px-4 sm:px-6 py-5 sm:py-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-3 max-w-5xl mx-auto">
-            {updatedCasinos.map((casino, index) => (
+            {mobileCasinos.map((casino, index) => (
               <CasinoCard
                 isOnline={isOnline}
-                key={casino.id} 
+                key={casino.id}
                 casino={casino}
                 rank={index + 1}
                 badge={index === 0 ? 'gold' : index === 1 ? 'silver' : index === 2 ? 'bronze' : index === 3 ? 'fourth' : undefined}
+                gclidValue={gclidValue}
               />
             ))}
           </div>
