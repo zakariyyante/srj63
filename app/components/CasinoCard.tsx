@@ -28,9 +28,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false, gcli
   const finalUrl = buildUrl(casino.url, gclidValue);
 
   const handleCasinoClick = () => {
-    if (casino.isMobile) {
-      track('Casino Click', { casino: casino.name });
-    }
+    track('Brand Click', { casino: casino.name });
   };
   const handleCardClick = () => {
     handleCasinoClick();
