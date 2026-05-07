@@ -48,6 +48,7 @@ const casinosRawData: CasinoRawData[] = [
     votes: 6143,
     isMobile: true,
   },
+  
   {
     name: "7Abet",
     logo: "/7ABET.svg",
@@ -56,16 +57,24 @@ const casinosRawData: CasinoRawData[] = [
     votes: 3962,
     isMobile: true,
   },
+  {
+    name: "WestAce",
+    logo: "/westace.webp",
+    bonus: "400% up to £12,750 + 400 FS",
+    url: "https://wstc.lynmonkel.com/?mid=355610_2116959&subid=Westace-SRJ63&clickid=",
+    votes: 3962,
+    isMobile: true,
+  },
   
   
-    {
-      name: "Zombillion",
-      logo: "/zombillion.svg",
-      bonus: "Welcome Pack 250% up to £4000 + 200 FS",
-      url: "https://direct.club.partners/click?pid=19&offer_id=33&l=1778175466&sub2=Zombillion-SRJ63&sub1=",
-      votes: 3962,
-      isMobile: true,
-    },
+    // {
+    //   name: "Zombillion",
+    //   logo: "/zombillion.svg",
+    //   bonus: "Welcome Pack 250% up to £4000 + 200 FS",
+    //   url: "https://direct.club.partners/click?pid=19&offer_id=33&l=1778175466&sub2=Zombillion-SRJ63&sub1=",
+    //   votes: 3962,
+    //   isMobile: true,
+    // },
   
   
   
