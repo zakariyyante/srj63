@@ -40,14 +40,14 @@ const casinosRawData: CasinoRawData[] = [
     votes: 5391,
     isMobile: true,
   },
-  {
-    name: "RollySpin",
-    logo: "/rolly.svg",
-    bonus: "100% UP TO €600 + 200 FREE SPINS",
-    url: "https://rollyspin19.net/dcdiqugc6?subid=RollySpin-SRJ63&visit_id=",
-    votes: 6143,
-    isMobile: true,
-  },
+  // {
+  //   name: "RollySpin",
+  //   logo: "/rolly.svg",
+  //   bonus: "100% UP TO €600 + 200 FREE SPINS",
+  //   url: "https://rollyspin19.net/dcdiqugc6?subid=RollySpin-SRJ63&visit_id=",
+  //   votes: 6143,
+  //   isMobile: true,
+  // },
   
   {
     name: "7Abet",
