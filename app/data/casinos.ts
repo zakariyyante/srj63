@@ -41,6 +41,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true,
   },
   {
+    name: "RollySpin",
+    logo: "/rolly.svg",
+    bonus: "100% UP TO €600 + 200 FREE SPINS",
+    url: "https://rollyspin19.net/dcdiqugc6?subid=RollySpin-SRJ63&visit_id=",
+    votes: 6143,
+    isMobile: true,
+  },
+  {
     name: "SlimKing",
     logo: "/slimkinglogo.png",
     bonus: "155% up to €5,555 + 150FS",
