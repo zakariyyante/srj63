@@ -41,21 +41,29 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true,
   },
   {
-    name: "RollySpin",
-    logo: "/rolly.svg",
-    bonus: "100% UP TO €600 + 200 FREE SPINS",
-    url: "https://rollyspin19.net/dcdiqugc6?subid=RollySpin-SRJ63&visit_id=",
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "350% up to £1,500 + 200 FS",
+    url: "https://liro.lynmonkel.com/?mid=330950_1985162&subid=Lizaro-SRJ63&clickid=",
     votes: 6143,
     isMobile: true,
   },
-  {
-    name: "7Abet",
-    logo: "/7ABET.svg",
-    bonus: "Casino Welcome Bonus 300% up to £200 + 50 Free Spins to kickstart your journey!",
-    url: "https://record.yoloaffiliates.com/_iPf0f63L7Qdhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id=7Abet-SRJ63&payload=",
-    votes: 3962,
-    isMobile: true,
-  },
+  // {
+  //   name: "RollySpin",
+  //   logo: "/rolly.svg",
+  //   bonus: "100% UP TO €600 + 200 FREE SPINS",
+  //   url: "https://rollyspin19.net/dcdiqugc6?subid=RollySpin-SRJ63&visit_id=",
+  //   votes: 6143,
+  //   isMobile: true,
+  // },
+  // {
+  //   name: "7Abet",
+  //   logo: "/7ABET.svg",
+  //   bonus: "Casino Welcome Bonus 300% up to £200 + 50 Free Spins to kickstart your journey!",
+  //   url: "https://record.yoloaffiliates.com/_iPf0f63L7Qdhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id=7Abet-SRJ63&payload=",
+  //   votes: 3962,
+  //   isMobile: true,
+  // },
   {
     name: "SlimKing",
     logo: "/slimkinglogo.png",
@@ -74,14 +82,7 @@ const casinosRawData: CasinoRawData[] = [
   // },
   
   
-  // {
-  //   name: "RollySpin",
-  //   logo: "/rolly.svg",
-  //   bonus: "100% UP TO €600 + 200 FREE SPINS",
-  //   url: "https://rollyspin19.net/dcdiqugc6?subid=RollySpin-SRJ63&visit_id=",
-  //   votes: 6143,
-  //   isMobile: true,
-  // },
+  
   //   {
   //     name: "Zombillion",
   //     logo: "/zombillion.svg",
