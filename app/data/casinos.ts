@@ -65,33 +65,33 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true,
   // },
   
-  {
-    name: "SlimKing",
-    logo: "/slimkinglogo.png",
-    bonus: "155% up to €5,555 + 150FS",
-    url: "https://go.gambleon.com/visit/?bta=75302&nci=5394&utm_campaign=SlimKing-SRJ63&afp=",
-    votes: 5962,
-    isMobile: true,
-  },
   // {
-  //   name: "WestAce",
-  //   logo: "/westace.webp",
-  //   bonus: "400% up to £12,750 + 400 FS",
-  //   url: "https://wstc.lynmonkel.com/?mid=355610_2116959&subid=Westace-SRJ63&clickid=",
-  //   votes: 3951,
+  //   name: "SlimKing",
+  //   logo: "/slimkinglogo.png",
+  //   bonus: "155% up to €5,555 + 150FS",
+  //   url: "https://go.gambleon.com/visit/?bta=75302&nci=5394&utm_campaign=SlimKing-SRJ63&afp=",
+  //   votes: 5962,
   //   isMobile: true,
   // },
+  {
+    name: "WestAce",
+    logo: "/westace.webp",
+    bonus: "400% up to £12,750 + 400 FS",
+    url: "https://wstc.lynmonkel.com/?mid=355610_2116959&subid=Westace-SRJ63&clickid=",
+    votes: 3951,
+    isMobile: true,
+  },
   
   
   
-  //   {
-  //     name: "Zombillion",
-  //     logo: "/zombillion.svg",
-  //     bonus: "Welcome Pack 250% up to £4000 + 200 FS",
-  //     url: "https://direct.club.partners/click?pid=19&offer_id=33&l=1778175466&sub2=Zombillion-SRJ63&sub1=",
-  //     votes: 3962,
-  //     isMobile: true,
-  //   },
+    {
+      name: "Zombillion",
+      logo: "/zombillion.svg",
+      bonus: "Welcome Pack 250% up to £4000 + 200 FS",
+      url: "https://direct.club.partners/click?pid=19&offer_id=33&l=1778175466&sub2=Zombillion-SRJ63&sub1=",
+      votes: 3962,
+      isMobile: true,
+    },
   
   
   
