@@ -32,22 +32,22 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgessss
 const casinosRawData: CasinoRawData[] = [
-  // {
-  //   name: "SpinBoss",
-  //   logo: "/spinboss.webp",
-  //   bonus: "400% UP TO £12,750 + 400 FS",
-  //   url: "https://spbs.lynmonkel.com/?mid=355610_2121758&subid=SpinBoss-SRJ63&clickid=",
-  //   votes: 7391,
-  //   isMobile: true,
-  // },
-  // {
-  //   name: "7Abet",
-  //   logo: "/7ABET.svg",
-  //   bonus: "Casino Welcome Bonus 300% up to £200 + 50 Free Spins to kickstart your journey!",
-  //   url: "https://record.yoloaffiliates.com/_iPf0f63L7Qdhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id=7Abet-SRJ63&payload=",
-  //   votes: 3962,
-  //   isMobile: true,
-  // },
+  {
+    name: "SpinBoss",
+    logo: "/spinboss.webp",
+    bonus: "400% UP TO £12,750 + 400 FS",
+    url: "https://spbs.lynmonkel.com/?mid=355610_2121758&subid=SpinBoss-SRJ63&clickid=",
+    votes: 7391,
+    isMobile: true,
+  },
+  {
+    name: "7Abet",
+    logo: "/7ABET.svg",
+    bonus: "Casino Welcome Bonus 300% up to £200 + 50 Free Spins to kickstart your journey!",
+    url: "https://record.yoloaffiliates.com/_iPf0f63L7Qdhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id=7Abet-SRJ63&payload=",
+    votes: 3962,
+    isMobile: true,
+  },
   // {
   //   name: "Lizaro",
   //   logo: "/lizaro.png",
@@ -65,22 +65,22 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true,
   // },
   
-  // {
-  //   name: "SlimKing",
-  //   logo: "/slimkinglogo.png",
-  //   bonus: "155% up to €5,555 + 150FS",
-  //   url: "https://go.gambleon.com/visit/?bta=75302&nci=5394&utm_campaign=SlimKing-SRJ63&afp=",
-  //   votes: 5962,
-  //   isMobile: true,
-  // },
-  // {
-  //   name: "WestAce",
-  //   logo: "/westace.webp",
-  //   bonus: "400% up to £12,750 + 400 FS",
-  //   url: "https://wstc.lynmonkel.com/?mid=355610_2116959&subid=Westace-SRJ63&clickid=",
-  //   votes: 3951,
-  //   isMobile: true,
-  // },
+  {
+    name: "SlimKing",
+    logo: "/slimkinglogo.png",
+    bonus: "155% up to €5,555 + 150FS",
+    url: "https://go.gambleon.com/visit/?bta=75302&nci=5394&utm_campaign=SlimKing-SRJ63&afp=",
+    votes: 5962,
+    isMobile: true,
+  },
+  {
+    name: "WestAce",
+    logo: "/westace.webp",
+    bonus: "400% up to £12,750 + 400 FS",
+    url: "https://wstc.lynmonkel.com/?mid=355610_2116959&subid=Westace-SRJ63&clickid=",
+    votes: 3951,
+    isMobile: true,
+  },
   
   
   
